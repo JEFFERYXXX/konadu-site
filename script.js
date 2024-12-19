@@ -20,3 +20,6 @@ document.getElementById("studioBookingForm").addEventListener("submit", function
         alert("Please fill out all fields correctly.");
     }
 });
+
+
+console.log("hello")
