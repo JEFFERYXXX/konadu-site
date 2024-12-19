@@ -1,0 +1,94 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+ul li a{
+    color: #000000;
+}
+
+
+body {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+header {
+    background-color: rgb(0, 238, 255);
+    color: black;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+
+.booking-form {
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    width: 90%;
+    max-width: 400px;
+}
+
+.booking-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(0, 238, 255);
+}
+
+.booking-form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.booking-form input,
+.booking-form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.booking-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(0, 238, 255);
+    color: black;
+    border: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.booking-form button:hover {
+    background-color:rgb(0, 238, 255);
+}
+
+#confirmationMessage {
+    text-align: center;
+    margin-top: 15px;
+    color: rgb(0, 238, 255);
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color:rgb(0, 238, 255);
+    color: #fff;
+}

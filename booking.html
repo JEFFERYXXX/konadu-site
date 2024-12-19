@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multipurpose Studio Booking</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="booking.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="icon">
+            <h2 class="logo">PLAYLAB STUDIO</h2>
+        </div>
+        
+        <div class="menu">
+            <ul>
+              <li><a href="MainPage.html">HOME  </a></li>
+              <li><a href="aboutus.html">ABOUT  </a></li>
+              <li><a href="services.html">SERVICES </a></li>
+              <li><a href="contacts.html">CONTACT </a></li> 
+              <li><a href="booking.html">BOOKINGS </a></li>      
+            </ul>
+        </div>
+
+    </div>
+    <header>
+        <h1>Welcome to the booking</h1>
+        <p>Book your session for Music, Recording, Photography, Podcasting, Content Creation.</p>
+    </header>
+
+    <main>
+        <section class="booking-form">
+            <h2>Book a Session</h2>
+            <form id="studioBookingForm">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+
+                <label for="email">Your Email</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+
+                <label for="session-type">Session Type</label>
+                <select id="session-type" required>
+                    <option value="">-- Select --</option>
+                    <option value="Photography">Photography</option>
+                    <option value="Podcast Recording">Podcast Recording</option>
+                    <option value="Workshop">Workshop</option>
+                    <option value="Content Creation">Content Creation</option>
+                </select>
+
+                <label for="date">Select Date</label>
+                <input type="date" id="date" required>
+
+                <label for="time">Select Time</label>
+                <input type="time" id="time" required>
+
+                <button type="submit">Book Now</button>
+            </form>
+            <p id="confirmationMessage"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Multipurpose Studio. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
